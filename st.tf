@@ -3,7 +3,7 @@ data "terraform_remote_state" "network" {
   config = {
     organization = "kenilith"
 
-    workspace = {
+    workspaces = {
       name = "network-team"
     }
   }
