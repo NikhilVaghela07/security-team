@@ -16,5 +16,5 @@ data "terraform_remote_state" "network" {
 
 output "network_public_ips" {
   description = "Network team IPs list featched"
-  value = data.terraform_remote_state.network.outputs.public_ips
+  value = data.terraform_remote_state.network.outputs.public
 }
